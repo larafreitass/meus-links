@@ -37,7 +37,29 @@ h1, p, a{
     margin-bottom: 4px;
  }
 
- div p{
-    
+ div strong{
+      color:#043044;
+      font-size: 14px;
  }
+
+ div p{
+    margin-block: 24px;
+    font-size: 14px;
+    list-style: 21px;
+ }
+
+ div a + a {
+    margin-top: 16px;
+ }
+ div a {
+    display:block;
+    text-decoration: none;
+    background-color: #134963;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+ 
  
