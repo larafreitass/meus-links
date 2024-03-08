@@ -14,7 +14,7 @@
 }
 
  div{
-        background-color: #557a8b;
+        background-color: #88bbeb;
         width: 384px;
         padding: 40px;
         text-align: center; 
@@ -61,5 +61,8 @@ h1, p, a{
     font-size: 14px;
     line-height: 21px;
 }
- 
- 
+div a:hover {
+    background-color: #557a8b;
+    color: #043044;
+    transition: 0.7s;
+}
